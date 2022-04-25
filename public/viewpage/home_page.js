@@ -2,10 +2,10 @@ import * as Auth from '../controller/auth.js'
 import * as Elements from './elements.js'
 import * as Constants from '../model/constants.js'
 import {
-   updateJoystickData, updateButtonData, attachRealtimeListener, initFirestoreDocs,
+   updateButtonData, attachRealtimeListener, initFirestoreDocs,
 } from '../controller/firestore_controller.js'
 
-let cameraDoc, joystickDoc, buttonDoc, servoDoc, loadImg, cameraButton, musicButton,
+let cameraDoc, buttonDoc, servoDoc, loadImg, cameraButton, musicButton,
   rightButton, leftButton, waterButton, enviroDoc, lightsDoc, lcdDoc, value
 
 export async function home_page() {
