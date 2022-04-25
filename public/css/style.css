@@ -4,9 +4,6 @@
     font-weight: bold;
     font-size: 25px;
 }
-/* .btn:hover {
-    background-color: rgb(255, 174, 0);
-} */
 
 img{
     padding-right: 20px;
@@ -23,12 +20,57 @@ img{
 
 .humid-box{
     padding-top: 20px;
-    background-color: rgb(87, 130, 87);
+    background-color: rgb(223, 0, 0);
     font-size: 30px;
     font-weight: bold;
     display: inline-block;
     width: 900px;
 }
+
+.humid-content{
+    font-size: 30px;
+    padding-left: 15px;
+    padding-right: 15px;
+    color: rgb(255, 145, 0);
+    font-weight: bold;
+    display: inline-block;
+}
+
+.light-box{
+    padding-top: 20px;
+    background-color: rgb(153, 0, 255);
+    font-size: 30px;
+    font-weight: bold;
+    display: inline-block;
+    width: 900px;
+}
+
+.light-content{
+    font-size: 30px;
+    padding-left: 15px;
+    padding-right: 15px;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    display: inline-block;
+}
+
+.lcd-box{
+    background-color: rgb(242, 0, 255);
+    font-size: 30px;
+    font-weight: bold;
+    display: inline-block;
+    width: 900px;
+}
+
+.lcd-content{
+    font-size: 30px;
+    padding-left: 15px;
+    color: rgb(205, 0, 123);
+    font-weight: bold;
+    display: inline-block;
+}
+
+
 .value-content{
     font-size: 30px;
     font-weight: bold;
@@ -36,7 +78,7 @@ img{
 }
 
 .temp-box{
-    background-color: rgb(63, 96, 63);
+    background-color: rgb(238, 255, 0);
     font-size: 30px;
     font-weight: bold;
     display: inline-block;
@@ -46,7 +88,7 @@ img{
 .tempC-content{
     font-size: 30px;
     padding-left: 15px;
-    color: rgb(39, 172, 255);
+    color: rgb(0, 47, 255);
     font-weight: bold;
     display: inline-block;
 }
@@ -55,7 +97,7 @@ img{
     font-size: 30px;
     padding-left: 15px;
     padding-right: 15px;
-    color: rgb(64, 255, 86);
+    color: rgb(7, 210, 0);
     font-weight: bold;
     display: inline-block;
 }

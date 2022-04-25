@@ -8,10 +8,12 @@ const db = getFirestore()
 
 
 export async function initFirestoreDocs() {
-	await setDoc(doc(db, Constants.COLLECTION, Constants.ADC_DATA), Constants.adcData)
 	await setDoc(doc(db, Constants.COLLECTION, Constants.CAMERA_DATA), Constants.cameraData)
 	await setDoc(doc(db, Constants.COLLECTION, Constants.BUTTON_DATA), Constants.buttonData)
 	await setDoc(doc(db, Constants.COLLECTION, Constants.JOYSTICK_DATA), Constants.joystickData)
+	await setDoc(doc(db, Constants.COLLECTION, Constants.ENVIRONMENT_DATA), Constants.environmentData)
+	await setDoc(doc(db, Constants.COLLECTION, Constants.LIGHT_DATA), Constants.lightData)
+	await setDoc(doc(db, Constants.COLLECTION, Constants.LCD_DATA), Constants.lcdData)
 
 }
 
@@ -35,3 +37,11 @@ export async function updateJoystickData(update) {
 	await updateDoc(docRef, update);
 
 }
+
+export async function updateEnvironmentData(update) {
+	const docRef = doc(db, Constants.COLLECTION, Constants.ENVIRONMENT_DATA);
+	await updateDoc(docRef, update);
+
+}
+
+

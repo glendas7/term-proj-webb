@@ -3,13 +3,31 @@ export const ADC_DATA = 'ADC_DATA';
 export const CAMERA_DATA = 'CAMERA_DATA';
 export const BUTTON_DATA = 'BUTTON_DATA';
 export const JOYSTICK_DATA = 'JOYSTICK_DATA';
+export const ENVIRONMENT_DATA = 'ENVIRONMENT_DATA';
+export const LIGHT_DATA = 'LIGHT_DATA'
+export const LCD_DATA = 'LCD_DATA'
 
 export const joystickData = {
  xVal: null,
 }
 
+export const lightData = {
+  value: null,
+  status: null,
+}
+
+export const environmentData = {
+  humidity: null,
+  tempC: null,
+  tempF: null,
+}
+
 export const buttonData = {
- picButton: null,
+  picButton: null,
+  musicButton: false,
+  arrowButton: false,
+  waterButton: false,
+  arrowVal: 0,
 }
 
 export const cameraData = {
@@ -17,10 +35,6 @@ export const cameraData = {
   timestamp: null,
 }
 
-export const adcData = {
-  value: null,
-  tempF: null,
-  tempC: null,
-  lights: null,
-
+export const lcdData = {
+  message: "",
 }
